@@ -1,0 +1,5 @@
+language: python
+python:
+  - "3.8"  # or any other Python version you prefer
+script:
+  - python test.py
