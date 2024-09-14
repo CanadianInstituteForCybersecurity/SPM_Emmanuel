@@ -1,0 +1,12 @@
+os: linux
+language: python
+sudo: false
+python:
+  - "3.8"
+
+script:
+  - python test.py
+
+after-success:
+  - bash <(curl -s https://codecov.io/bash)
+
